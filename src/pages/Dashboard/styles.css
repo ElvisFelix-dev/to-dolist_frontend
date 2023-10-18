@@ -1,0 +1,39 @@
+.containe {
+  transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+.conten {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-top: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header input {
+  flex: 1; /* O input ocupa todo o espaço disponível */
+}
+
+.bnt {
+  width: 50px;
+  height: 35px;
+
+  font-size: 15px;
+
+  margin-bottom: 20px;
+
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bnt:hover {
+  background-color: transparent;
+}
