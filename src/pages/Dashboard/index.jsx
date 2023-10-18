@@ -57,13 +57,14 @@ export default function Dashboard() {
   const [name, setName] = useState('')
   const [todos, setTodos] = useState([])
 
-  /* useEffect(() => {
+  useEffect(() => {
     const socket = io('http://localhost:3333')
 
-    socket.on('newTodo', (data) => {
+    socket.on('To-do', (data) => {
       console.log(data)
+      // Aqui, você pode atualizar a interface do usuário ou realizar qualquer ação necessária quando um novo To-do é adicionado
     })
-  }, []) */
+  }, [])
 
   const submitHandler = async (e) => {
     e.preventDefault()
